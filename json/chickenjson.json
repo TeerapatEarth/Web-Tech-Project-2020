@@ -1,0 +1,89 @@
+[
+    {
+        "sizecard":"big",
+        "name": "ชุดไก่อิ่มคุ้ม 99 บาท",
+        "img":"https://cdn.1112.com/1112/public/images/products/promotion/731176_th.jpg",
+        "info":"ชุดไก่อิ่มคุ้ม 99 อิ่มคุ้มๆ กับชุดไก่อิ่มคุ้ม ราคากุ๊กกิ๊กน่ารักสบายกระเป๋า แต่ไก่เพียบ ทั้งปีกไก่และไก่ป๊อป อร่อยคนเดียวได้ ไม่ต้องง้อใคร หิวไก่เมื่อไหร่ก็กินได้เลย",
+        "price":"99"
+    },
+    {
+        "sizecard":"big",
+        "name": "ชุดไก่สุดคุ้ม 129 บาท",
+        "img":"https://cdn.1112.com/1112/public/images/products/promotion/731178_th.jpg",
+        "info":"ชุดไก่สุดคุ้ม 129 คุ้มสุดๆ กับชุดไก่สุดคุ้ม อร่อยคนเดียวแบบพุงกางก็ได้ หรือจะอร่อยเป็นคู่ก็ได้เพราะมีทั้งปีกไก่ ไก่ป๊อป และชิกเก้นสติ๊กส์",
+        "price":"129"
+    },
+    {
+        "sizecard":"big",
+        "name": "ชุดไก่เกินคุ้ม 199 บาท",
+        "img":"https://cdn.1112.com/1112/public/images/products/promotion/731180_th.jpg",
+        "info":"ชุดไก่เกินคุ้ม 199 ไก่เยอะ คุ้มเกินราคา กับชุดไก่เกินคุ้ม มีทั้ง ปีกไก่ ไก่ป๊อป ชิกเก้นสติ๊กส์และนักเก็ต อร่อยได้ 2-3 คน กินกับเพื่อนก็ดี กินกับแฟนก็อร่อย",
+        "price":"199"
+    },
+    {
+        "sizecard": "small",
+        "name": "ปีกไก่ บัฟฟาโล 6 ชิ้น",
+        "img": "https://cdn.1112.com/1112/public//images/products/NewYorker/116725.png",
+        "price": "129"
+    },
+    {
+        "sizecard": "small",
+        "name": "ปีกไก่ บัฟฟาโล 10 ชิ้น",
+        "img": "https://cdn.1112.com/1112/public//images/products/NewYorker/116726.png",
+        "price": "199"
+    },
+    {
+        "sizecard": "small",
+        "name": "ปีกไก่ บาร์บีคิว 6 ชิ้น",
+        "img": "https://cdn.1112.com/1112/public//images/products/appetizer/mobile/itm116536.png",
+        "price": "129"
+    },
+    {
+        "sizecard": "small",
+        "name": "ปีกไก่บาร์บีคิว 10 ชิ้น",
+        "img": "https://cdn.1112.com/1112/public//images/products/appetizer/mobile/itm116539.png",
+        "price": "199"
+    },
+    {
+        "sizecard": "small",
+        "name": "ปีกไก่ทอด สไตล์เกาหลี 6 ชิ้น",
+        "img": "https://cdn.1112.com/1112/public//images/products/appetizer/mobile/itm116554.png",
+        "price": "129"
+    },
+    {
+        "sizecard": "small",
+        "name": "ปีกไก่ทอด สไตล์เกาหลี 10 ชิ้น",
+        "img": "https://cdn.1112.com/1112/public//images/products/appetizer/mobile/itm116561.png",
+        "price": "199"
+    },
+    {
+        "sizecard": "small",
+        "name": "ปีกไก่สไปซี่เกาหลี 6 ชิ้น",
+        "img": "https://cdn.1112.com/1112/public//images/products/appetizer/mobile/Korean-Spicy-Wing-6pcs-resize2.png",
+        "price": "129"
+    },
+    {
+        "sizecard": "small",
+        "name": "ปีกไก่สไปซี่เกาหลี 10 ชิ้น",
+        "img": "https://cdn.1112.com/1112/public//images/products/appetizer/mobile/Korean-Spicy-Wing-10pcs-resize2.png",
+        "price": "199"
+    },
+    {
+        "sizecard": "small",
+        "name": "ชิกเก้น นักเก็ตส์ 6 ชิ้น พร้อมซอสมะเขือเทศ",
+        "img": "https://cdn.1112.com/1112/public//images/products/appetizer/mobile/itm116569.png",
+        "price": "79"
+    },
+    {
+        "sizecard": "small",
+        "name": "ชิกเก้น นักเก็ตส์ 6 ชิ้น พร้อมน้ำจิ้มไก่",
+        "img": "https://cdn.1112.com/1112/public//images/products/appetizer/mobile/itm116570.png",
+        "price": "79"
+    },
+    {
+        "sizecard": "small",
+        "name": "ชิกเก้นสติ๊กส์",
+        "img": "https://cdn.1112.com/1112/public//images/products/appetizer/116520_2.png",
+        "price": "79"
+    }
+]

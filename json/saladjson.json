@@ -1,0 +1,42 @@
+[
+    {
+        "name": "ซีซาร์สลัด",
+        "img":"https://cdn.1112.com/1112/public//images/products/salad/website/itm116508.png",
+        "price":"139"
+    },
+    {
+        "name": "สลัดกุ้ง",
+        "img":"https://cdn.1112.com/1112/public//images/products/salad/website/itm116513.png",
+        "price":"159"
+    },
+    {
+        "name": "การ์เดนสลัด และน้ำสลัดเทาซันไอส์แลนด์",
+        "img":"https://cdn.1112.com/1112/public//images/products/salad/website/itm116504.png",
+        "price":"99"
+    },
+    {
+        "name": "การ์เดนสลัด และน้ำครีมสลัด",
+        "img":"https://cdn.1112.com/1112/public//images/products/salad/website/itm116503.png",
+        "price":"99"
+    },
+    {
+        "name": "น้ำสลัดครีมสูตรต้นตำรับ",
+        "img":"https://cdn.1112.com/1112/public//images/products/salad/website/itm116505.png",
+        "price":"10"
+    },
+    {
+        "name": "น้ำสลัดเทาซันไอส์แลนด์",
+        "img":"https://cdn.1112.com/1112/public//images/products/salad/website/itm116506.png",
+        "price":"10"
+    },
+    {
+        "name": "น้ำสลัดซีซาร์",
+        "img":"https://cdn.1112.com/1112/public//images/products/salad/website/itm116510.png",
+        "price":"10"
+    },
+    {
+        "name": "น้ำสลัดงาขาว",
+        "img":"https://cdn.1112.com/1112/public//images/products/salad/website/itm116511.png",
+        "price":"10"
+    }
+]
