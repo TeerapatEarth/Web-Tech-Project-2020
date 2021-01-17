@@ -1,0 +1,83 @@
+[
+    {
+        "name": "หมูยอดฮิต",
+        "img":"https://cdn.1112.com/1112/public//images/products/pizza/JUL2020/102723.png",
+        "price":"299"
+    },
+    {
+        "name": "ชิคเก้นเดอลุกซ์",
+        "img":"https://cdn.1112.com/1112/public//images/products/pizza/JUL2020/102724.png",
+        "price":"339"
+    },
+    {
+        "name": "ซุปเปอร์เดอลุกซ์",
+        "img":"https://cdn.1112.com/1112/public//images/products/pizza/JUL2020/102201.png",
+        "price":"339"
+    },
+    {
+        "name": "ซีฟู้ดเดอลุกซ์",
+        "img":"https://cdn.1112.com/1112/public//images/products/pizza/JUL2020/102228.png",
+        "price":"399"
+    },
+    {
+        "name": "ซีฟู้ดค็อกเทล",
+        "img":"https://cdn.1112.com/1112/public//images/products/pizza/JUL2020/102208.png",
+        "price":"399"
+    },
+    {
+        "name": "ซุปเปอร์ซีฟู้ด",
+        "img":"https://cdn.1112.com/1112/public//images/products/pizza/JUL2020/102722.png",
+        "price":"399"
+    },
+    {
+        "name": "มีทเดอลุกซ์",
+        "img":"https://cdn.1112.com/1112/public//images/products/pizza/JUL2020/102210.png",
+        "price":"399"
+    },
+    {
+        "name": "ค็อกเทลกุ้ง",
+        "img":"https://cdn.1112.com/1112/public//images/products/pizza/JUL2020/102209.png",
+        "price":"399"
+    },
+    {
+        "name": "เห็ดและมะเขือเทศ",
+        "img":"https://cdn.1112.com/1112/public//images/products/pizza/JUL2020/102225.png",
+        "price":"339"
+    },
+    {
+        "name": "ต้มยำกุ้ง",
+        "img":"https://cdn.1112.com/1112/public//images/products/pizza/JUL2020/102212.png",
+        "price":"399"
+    },
+    {
+        "name": "แฮมและปูอัด",
+        "img":"https://cdn.1112.com/1112/public//images/products/pizza/JUL2020/102226.png",
+        "price":"299"
+    },
+    {
+        "name": "ฮาวาเอี้ยน",
+        "img":"https://cdn.1112.com/1112/public//images/products/pizza/JUL2020/102204.png",
+        "price":"399"
+    },
+    {
+        "name": "ดับเบิ้ลชีสพิซซ่า",
+        "img":"https://cdn.1112.com/1112/public//images/products/pizza/JUL2020/102216.png",
+        "price":"299"
+    },
+    {
+        "name": "ไก่สามรส",
+        "img":"https://cdn.1112.com/1112/public//images/products/pizza/JUL2020/102203.png",
+        "price":"299"
+    },
+    {
+        "name": "ฟรีสไตล์",
+        "img":"https://cdn.1112.com/1112/public//images/products/pizza/JUL2020/102216.png",
+        "price":"259"
+    },
+    {
+        "name": "ดับเบิ้ลเป๊ปเปอโรนี",
+        "img":"https://cdn.1112.com/1112/public//images/products/pizza/JUL2020/102217.png",
+        "price":"299"
+    }
+    
+]

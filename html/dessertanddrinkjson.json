@@ -1,0 +1,77 @@
+[
+    {
+        "name": "ไอศกรีมบาร์รสวานิลลา มัลติแพ็ค 4 แท่ง",
+        "img":"https://cdn.1112.com/1112/public//images/products/icecream/125287_2.jpg",
+        "price":"219"
+    },
+    {
+        "name": "ไอศกรีมบาร์รสมอคค่า มัลติแพ็ค 4 แท่ง",
+        "img":"https://cdn.1112.com/1112/public//images/products/icecream/125288.png",
+        "price":"249"
+    },
+    {
+        "name": "ไอศกรีมบาร์รสคุกกี้แอนด์ครีม มัลติแพ็ค 4 แท่ง",
+        "img":"https://cdn.1112.com/1112/public//images/products/icecream/125289.png",
+        "price":"249"
+    },
+    {
+        "name": "ไอศกรีม ม็อคค่า อัลมอนด์ฟัดจ์",
+        "img":"https://cdn.1112.com/1112/public//images/products/icecream/website/itm125242_2.png",
+        "price":"329"
+    },
+    {
+        "name": "ไอศกรีม ช็อคโกแลตชิพ",
+        "img":"https://cdn.1112.com/1112/public//images/products/icecream/website/itm125241_2.png",
+        "price":"329"
+    },
+    {
+        "name": "ไอศกรีม สติ๊กกี้ชูวี่ช็อคโกแลต",
+        "img":"https://cdn.1112.com/1112/public//images/products/icecream/website/itm125245_2.png",
+        "price":"329"
+    },
+    {
+        "name": "ไอศกรีม รัมเรซิน",
+        "img":"https://cdn.1112.com/1112/public//images/products/icecream/website/itm125244_2.png",
+        "price":"329"
+    },
+    {
+        "name": "ไอศกรีม เวรี่ สตอเบอร์รี่",
+        "img":"https://cdn.1112.com/1112/public//images/products/icecream/website/itm125246_2.png",
+        "price":"329"
+    },
+    {
+        "name": "ไอศกรีม วานิลลา",
+        "img":"https://cdn.1112.com/1112/public//images/products/icecream/website/itm125243_2.png",
+        "price":"329"
+    },
+    {
+        "name": "โค้ก 500 มล.",
+        "img":"https://cdn.1112.com/1112/public//images/products/beverage/117561.png",
+        "price":"24"
+    },
+    {
+        "name": "โค้ก (ไม่มีน้ำตาล) 500 มล.",
+        "img":"https://cdn.1112.com/1112/public//images/products/beverage/117562.png",
+        "price":"24"
+    },
+    {
+        "name": "สไปรท์ 500 มล.",
+        "img":"https://cdn.1112.com/1112/public//images/products/beverage/117563.png",
+        "price":"24"
+    },
+    {
+        "name": "โค้ก 1.25 ลิตร",
+        "img":"https://cdn.1112.com/1112/public//images/products/beverage/Coke1.25.png",
+        "price":"32"
+    },
+    {
+        "name": "โค้ก (ไม่มีน้ำตาล) 1.25 ลิตร",
+        "img":"https://cdn.1112.com/1112/public//images/products/beverage/117565.png",
+        "price":"32"
+    },
+    {
+        "name": "สไปรท์ 1.25 ลิตร",
+        "img":"https://cdn.1112.com/1112/public//images/products/beverage/117566.png",
+        "price":"32"
+    }
+]

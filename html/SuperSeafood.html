@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza 1</title>
+    <link rel="icon" href="https://cdn.1112.com/1112/public/images/logo.svg" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <script src="jsandjson/header.js" type="text/javascript"></script>
+    <script src="jsandjson/changepizza.js" type="text/javascript"></script>
+    <script src="jsandjson/changemes.js" type="text/javascript"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            background-image: url("https://1112.minorcdn.com/1112/public/images/wood_1.png");
+            font-family: 'Kanit', sans-serif;
+        }
+
+        nav {
+            margin-top: 10px;
+            margin-left: 4px;
+            margin-bottom: 10px;
+        }
+
+        .header-logo {
+            margin-top: 10px;
+        }
+
+        .sent {
+            border-radius: 10px;
+            color: white;
+            border: 0px solid black;
+        }
+
+        p {
+            color: white;
+        }
+
+        .header-location {
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .selectlocation {
+            margin-left: 40px;
+            margin-top: 33px;
+        }
+
+        .login {
+            margin-left: 35px;
+            margin-top: 20px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        #left {
+            background-color: black;
+            color: white;
+            border: 0px solid black;
+            margin-left: 20px;
+            margin-top: 120px;
+            font-size: 100px;
+        }
+
+        #right {
+            background-color: black;
+            color: white;
+            border: 0px solid black;
+            margin-top: 120px;
+            font-size: 100px;
+        }
+
+        .link {
+            background-color: hsl(139, 69%, 22%);
+            color: white;
+            border: 0px solid black;
+        }
+
+        .itempizza {
+            background-color: black;
+        }
+
+        .mes {
+            background-color: black;
+            color: white;
+            width: 130px;
+            padding: 5px;
+            border: 0px;
+            border-left: 1px solid gray;
+        }
+
+        .card {
+            background-color: hsl(139, 69%, 22%);
+            border-radius: 10px;
+            margin: 20px;
+            border: 2px solid hsl(139, 69%, 22%);
+            height: 300px;
+        }
+
+        #ingredients{
+            background-color: rgb(22, 22, 22); 
+            padding: 20px; 
+            border: 0px; 
+            height: 280px; 
+            width: 100%;
+        }
+
+        .imgingredients{
+            border-radius: 50%;
+            height: 110px;
+        }
+
+        #cardmargin{
+            margin-left: 25px;
+        }
+    </style>
+</head>
+
+<body onload="setnum()">
+    <div class='container'>
+        <a href="map.html"><button style="position:fixed; bottom: 15px; right: 110px; border-radius: 20px; color:hsl(139, 69%, 22%); border:none;
+            font-size: 10px; width: 90px; padding: 5px; height: 30px; background-color: white;">ค้นหาร้านค้า</button></a>
+            <button style="position:fixed; bottom: 15px; right: 10px; border-radius: 20px; color:white; border:none;
+            font-size: 10px; width: 90px; padding: 5px; background-color: hsl(4, 96%, 33%); height: 30px;">สนทนากับเจ้าหน้าที่</button>
+        <br><br><br><br><br><br>
+        <div class="row">
+            <div class="col-md-12" style="color: white; text-align: center; margin-top: 30px; margin-bottom: 30px;">
+                <h3>โปรโมชั่นพิซซ่า ซื้อ 1 แถม 1</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4" style="color: white; text-align: center;">
+                <p style="font-size: 23px; background-color: black; width: 40px; margin-left: 293px; 
+                border-radius: 50%; border: 2px solid hsl(127, 47%, 17%);">1</p>
+                <p style="font-size: 13px; margin-left: 275px;">เลือกถาดแรก</p>
+            </div>
+            <div class="col-md-4">
+                <p style="margin-top: 15px; margin-left: 0px; background-color: gray; font-size: 3px; color: gray;">a</p>
+            </div>
+            <div class="col-md-4" style="color: white; text-align: center;">
+                <p style="font-size: 21px; background-color: gray; width: 36px; margin-left: 15px; 
+                border-radius: 50%; border: 2px solid gray; color: gray;">2</p>
+                <p style="font-size: 13px; margin-left: 0px; text-align: left;">เลือกถาดสอง</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" style="color: white; text-align: center; margin-top: 10px; margin-bottom: 10px;">
+                <h3>เลือกถาดแรก</h3>
+            </div>
+        </div>
+        <div class="row" style="background-color: black; border-radius: 30px 30px 0px 0px; margin:auto">
+            <div class="col-md-1"></div>
+            <div class="col-md-5" style="margin:auto" id='pizzaimg'>
+                <img src="https://cdn.1112.com/1112/public//images/products/pizza/JUL2020/102722.png"
+                    style="width: 100%;">
+            </div>
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-4" style="margin:auto;">
+                <div style="text-align: center;">
+                    <form action='' method='POST'>
+                        <select name='pizzatype' id='pizzatype' style='
+                        background-color: hsl(139, 69%, 22%);color: white; border-radius: 10px;height: 
+                        50px;padding: 3px;width: 100%; border: 0px; margin-top: 30px;' onchange="change()">
+                            <option value="5" id="head" disabled selected>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ซุปเปอร์ซีฟู๊ด</option>
+                            <option class='itempizza' value="0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;หมูรวมฮิต
+                            </option>
+                            <option class='itempizza' value="1">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ชิคเก้นเดอลุกซ์</option>
+                            <option class='itempizza' value="2">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ซุปเปอร์เดอลุกซ์</option>
+                            <option class='itempizza' value="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ซีฟู้ดเดอลุกซ์
+                            </option>
+                            <option class='itempizza' value="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ซีฟู้ดค็อกเทล
+                            </option>
+                            <option class='itempizza' value="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ซุปเปอร์ซีฟู๊ด
+                            </option>
+                            <option class='itempizza' value="6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;มีทเดอลุกซ์
+                            </option>
+                            <option class='itempizza' value="7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ค็อกเทลกุ้ง
+                            </option>
+                            <option class='itempizza' value="8">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เห็ดและมะเขือเทศ</option>
+                            <option class='itempizza' value="9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ต้มยำกุ้ง
+                            </option>
+                            <option class='itempizza' value="10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;แฮมและปูอัด
+                            </option>
+                            <option class='itempizza' value="11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ฮาวายเอี้ยน
+                            </option>
+                            <option class='itempizza' value="12">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ดับเบิ้ลชีสพิซซ่า</option>
+                            <option class='itempizza' value="13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ไก่สามรส
+                            </option>
+                            <option class='itempizza' value="14">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ฟรีสไตล์
+                            </option>
+                            <option class='itempizza' value="15">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ดับเบิ้ลเป๊ปเปอโรนี</option>
+                        </select>
+                    </form>
+                </div>
+                <p id='detail' style="margin-top: 20px;">ปลาหมึก, กุ้งกระเทียมพริกไทย, โหระพา, หอมใหญ่, พริกหวาน และซอสมารินาร่า</p>
+                <p id='price' style="font-size: 25px;">ราคา 399 ฿</p>
+                <div class='row'>
+                    <div class="col-md-4">
+                        <p>เลือกขนาด</p>
+                    </div>
+                    <div class="col-md-2">
+                        <button id='sizem'style="border-radius: 50px; width: 30px; background-color: hsl(139, 69%, 22%);
+                        color: white; border: 2px solid white;" onclick="changesize(0)">M</button>
+                    </div>
+                    <div class="col-md-2">
+                        <button id='sizel'style="border-radius: 50px; width: 30px; background-color: grey; 
+                        color: white; border: 2px solid gray;" onclick="changesize(1)">L</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <br>
+                        <p>เลือกขอบ</p>
+                    </div>
+                    <div class="col-md-9" id="formsize">
+                        <br>
+                        <form action='' method='POST'>
+                            <select name='pizzatype' id='crusttype'
+                                style='
+                            background-color: black;color: white; border-radius: 10px;height: 
+                            50px;padding: 3px;width: 100%; border: 0px; border: 2px solid hsl(139, 69%, 22%); margin-bottom: 50px;' onchange="changecrust()">
+                                <option class='itempizza' value="1" id='item1'>พิซซ่าแป้งหนานุ่ม ถาดกลาง</option>
+                                <option class='itempizza' value="2" id='item2'>พิซซ่าแป้งบางกรอบ ถาดกลาง</option>
+                                <option class='itempizza' value="3" id='item3'>พิซซ่าขอบชีส ถาดกลาง</option>
+                                <option class='itempizza' value="4" id='item4'>พิซซ่าขอบไส้กรอกและชีส ถาดกลาง</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row" style="background-color: black; text-align: center; margin: auto;">
+            <div class="col-md-12" style="margin-top: 30px;">
+                <p style="font-size: 20px;">เลือกข้อความบนกล่องพิซซ่า</p>
+                <br>
+            </div>
+        </div>
+        <div class="row" style="background-color: black; margin: auto;">
+            <div class="col-md-9" style="margin-left: 30px;">
+                <div style="border-bottom: 2px solid hsl(139, 69%, 22%);">
+                    <button id='btn1' onclick="changemes(0)"
+                        style="background-color: hsl(139, 69%, 22%); 
+                    border-radius: 10px 10px 0px 0px; width: 130px; color: white; height: 40px; padding: 5px; border: 0px">ไม่รับข้อความ</button>
+                    <button id='btn2' class='mes' onclick="changemes(1)">ขอโทษ</button>
+                    <button id='btn3' class='mes' onclick="changemes(2)">ให้กำลังใจ</button>
+                    <button id='btn4' class='mes' onclick="changemes(3)">วันเกิด</button>
+                    <button id='btn5' class='mes' onclick="changemes(4)">แอบชอบ</button>
+                    <button id='btn6' class='mes' onclick="changemes(5)">แซวเพื่อน</button>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="background-color: black; margin: auto; text-align: center;" id='cardmes'>
+            <div class="col-md-12" style="margin-top: 30px;">
+                <p style="font-size: 20px; margin-top: 100px; margin-bottom: 100px;">ไม่รับข้อความ</p>
+            </div>
+        </div>
+        <div class="row" style="background-color: black; margin: auto; text-align: center;">
+            <div class="col-md-12">
+                <a href="pizza2.html"><button style="background-color: hsl(4, 96%, 33%);color: white; border: 0px; border-radius: 10px; width: 300px;
+                height: 40px;">เลือกพิซซ่าถาดสอง</button></a>
+            </div>
+        </div>
+        <div class="row" style="background-color: black; margin: auto; text-align: center; padding-top: 40px;">
+            <div class="col-md-12" style="border-top: 1px solid gray;">
+                <br>
+                <p onclick="ingredients()">ปรับแต่งพิซซ่าด้วยตัวเอง &#8681;</p>
+                <p>* สามารถเพิ่มได้ไม่เกิน 7 ส่วน</p>
+            </div>
+        </div>
+        <div class="row" style="background-color:black; margin: auto;" id="headsauce"></div>
+        <div class="row" style="background-color:black; margin: auto;" id="sauceselect"></div>
+        <div class="row" style="background-color:black; margin: auto;" id="headingredients"></div>
+        <div class="row" style="background-color:black; margin: auto;" id="itemmain"></div>
+
+        <div class="row" style="background-color:black; margin: auto;" id="headingredients2"></div>
+        <div class="row" style="background-color:black; margin: auto;" id="itemanother"></div>
+        <div class="row" style="background-color: black; margin: auto;" id="buttonpizza2"></div>
+        <div class="row" style="background-color: black; margin: auto; text-align: center; border-radius: 0px 0px 30px 30px;"><br></div>
+    </div>
+
+    <header>
+        <div class="header-location " style="background-color: hsl(139, 69%, 22%);">
+            <div class="container">
+                <div class="row">
+
+                    <div class="header-logo">
+                        <a href="index.html"><img style="width: 100%;"
+                                src="https://cdn.1112.com/1112/public/images/logo.svg"></a>
+                    </div>
+
+                    <div style="
+                    margin-top: 33px;
+                    margin-left: 60px; 
+                    background-color: hsl(127, 47%, 17%); 
+                    height: 35px; 
+                    padding: 3px; 
+                    border-radius: 5px;">
+                        <button class='sent' id='sent1' style="
+                        background-color: hsl(4, 96%, 33%)" onclick="toggle('sent1')"><i class='fas fa-motorcycle'></i> จัดส่งถึงบ้าน</button>
+                        <button class='sent' id='sent2' style="
+                        margin-left: 10px;
+                        background-color: hsl(127, 47%, 17%);" onclick="toggle('sent2')"><i class="material-icons" style="font-size: 13px;">restaurant</i> รับสินค้าที่ร้าน</button>
+                    </div>
+
+                    <div class='selectlocation' id='selectlo'>
+                        <form action='' method='POST'>
+                            <select name='location' id='locations'
+                                style='
+                            background-color: hsl(127, 47%, 17%);color: white; border-radius: 10px;height: 34px;padding: 3px;width: 340px;'>
+                                <option disabled selected>เลือกที่อยู่ปัจจุบัน</option>
+                                <option>ใช้ตำแหน่งปัจจุบันของฉัน</option>
+                                <option>+ เพิ่มที่อยู่ใหม่</option>
+                            </select>
+                        </form>
+                    </div>
+
+                    <div class='login'>
+                        <nav>
+                            <a href="login.html"><button class='link'><i class="material-icons" style="font-size: 15px;">person</i> เข้าสู่ระบบ</button></a>
+                            <a style="color: white; font-size: 20px;">/</a>
+                            <a href="signup.html"><button class='link'>ลงทะเบียน</button></a>
+                            <a style="color: white; font-size: 20px;">|</a>
+                            <a style="color: white;">EN</a>
+                            <a style="color: white; font-size: 20px;">|</a>
+                            <a href="" style="color: white;"> <i class="fa fa-shopping-cart"></i> Cart</a>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <nav>
+                        <a href="pizza.html"><button class='link'>ซื้อ 1 แถม 1 </button></a>
+                        <a style="color: white; font-size: 20px;">|</a>
+                        <a href="promotion.html"><button class='link'>โปรโมชั่น </button></a>
+                        <a style="color: white; font-size: 20px;">|</a>
+                        <a href="Newyorkpizza.html"><button class='link'>นิวยอร์กพิซซ่า</button></a>
+                        <a style="color: white; font-size: 20px;">|</a>
+                        <a href="puff.html"><button class='link'>พิซซ่า พัฟ </button></a>
+                        <a style="color: white; font-size: 20px;">|</a>
+                        <a href="chicken.html"><button class='link'>#ทีมไก่กรอบ </button></a>
+                        <a style="color: white; font-size: 20px;">|</a>
+                        <a href="alacarte.html"><button class='link'>อาหารจานเดียว </button></a>
+                        <a style="color: white; font-size: 20px;">|</a>
+                        <a href="salad.html"><button class='link'>สลัด </button></a>
+                        <a style="color: white; font-size: 20px;">|</a>
+                        <a href="appetizer.html"><button class='link'>อาหารรองท้อง</button></a>
+                        <a style="color: white; font-size: 20px;">|</a>
+                        <a href="desertanddrink.html"><button class='link'>ของหวานและเครื่องดื่ม</button></a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <footer>
+            <hr style="border: 1px solid gray;">
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4" style="text-align: center;">
+                    <img src="https://cdn.1112.com/1112/public/images/logo-visa.svg" style="width: 15%;">
+                    <img src="https://cdn.1112.com/1112/public/images/logo-mastercard.svg" style="width: 23%;">
+                    <img src="https://cdn.1112.com/1112/public/images/logo-jcb.svg" style="width: 10%;">
+                    <img src="https://cdn.1112.com/1112/public/images/logo-pci.svg" style="width: 10%;">
+                </div>
+                <div class="col-md-4" style="text-align: center;">
+                    <a href="" style="color: white;">ติดต่อเรา</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="" style="color: white;"> <svg width="1em"
+                            height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z" />
+                        </svg> 1112</a>
+                </div>
+                <div class="col-4" style="text-align: center;">
+
+                    <a href="https://www.facebook.com/thepizzacompany/" target="_blank">
+                        <img src="https://cdn.1112.com/1112/public/images/logo-fb.svg" style="width: 10%;">
+                    </a>
+                    <a class="" href="http://line.me/ti/p/@thepizzacompany1112" target="_blank">
+                        <img src="https://cdn.1112.com/1112/public/images/logo-line.svg" style="width: 10%;">
+                    </a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://itunes.apple.com/th/app/the-pizza-company-1112./id1033213872?mt=8" target="_blank">
+                        <img src="https://cdn.1112.com/1112/public/images/logo-appstore.svg" style="width: 20%;">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.minor.pizzacompany" target="_blank">
+                        <img src="https://cdn.1112.com/1112/public/images/logo-googleplay.svg" style="width: 20%;">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12" style="text-align: center; margin-top: 20px;">
+                    <a href="aboutus.html"
+                        style="color: white;">เกี่ยวกับเรา</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="policy.html"
+                        style="color: white;">นโยบายข้อมูลส่วนตัว</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://1112pizza.com/bogo2020" target="_blank" style="color: white;">เงื่อนไขการใช้งานสำหรับ ซื้อ 1 แถม 1</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12" style="text-align: center; margin-top: 10px;">
+                    <button type="button" class="btn btn-success"
+                        style="border-radius: 10px;">ตรวจสอบสถานะการจัดส่ง</button>
+                </div>
+            </div>
+            <center style="margin-top: 10px; color: white;margin-bottom: 10px;">Copyright &copy; 2010-2020.com. All
+                right reserved.</center>
+        </footer>
+    </div>
+</body>
+
+</html>

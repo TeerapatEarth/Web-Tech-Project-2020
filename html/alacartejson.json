@@ -1,0 +1,98 @@
+[
+    {
+        "name": "ข้าวกะเพราหมูย่าง",
+        "img":"https://cdn.1112.com/1112/public//images/products/maindish/mobile/124601.png",
+        "price":"79"
+    },
+    {
+        "name": "ข้าวน้ำตกหมูย่าง",
+        "img":"https://cdn.1112.com/1112/public//images/products/maindish/mobile/124603.png",
+        "price":"79"
+    },
+    {
+        "name": "ข้าวยำหมูย่าง",
+        "img":"https://cdn.1112.com/1112/public//images/products/maindish/mobile/124602.png",
+        "price":"79"
+    },
+    {
+        "name": "ข้าวไก่ป๊อปกะเพรากรอบ",
+        "img":"https://cdn.1112.com/1112/public//images/products/maindish/mobile/124525.png",
+        "price":"69"
+    },
+    {
+        "name": "ข้าวสไปซี่เกาหลีไก่ป๊อป",
+        "img":"https://cdn.1112.com/1112/public//images/products/maindish/mobile/124520.png",
+        "price":"69"
+    },
+    {
+        "name": "ข้าวเกาหลีไก่ป๊อป",
+        "img":"https://cdn.1112.com/1112/public//images/products/maindish/mobile/124521.png",
+        "price":"69"
+    },
+    {
+        "name": "ข้าวยำไก่ป๊อป",
+        "img":"https://cdn.1112.com/1112/public//images/products/maindish/mobile/124511.png",
+        "price":"69"
+    },
+    {
+        "name": "ข้าวน้ำตกไก่ป๊อป",
+        "img":"https://cdn.1112.com/1112/public//images/products/maindish/mobile/124512.png",
+        "price":"69"
+    },
+    {
+        "name": "สปาเก็ตตี้ขี้เมาไก่",
+        "img":"https://cdn.1112.com/1112/public//images/products/maindish/mobile/Pasta_Chicken-Khee-Mao_app2.png",
+        "price":"99"
+    },
+    {
+        "name": "สปาเก็ตตี้ขี้เมาไส้กรอก",
+        "img":"https://cdn.1112.com/1112/public//images/products/maindish/mobile/Pasta_Sausage-Khee-Mao_app2.png",
+        "price":"99"
+    },
+    {
+        "name": "ข้าวหอมมะลิ",
+        "img":"https://cdn.1112.com/1112/public//images/products/maindish/mobile/Jasmine-Rice_Angle_app_new.png",
+        "price":"15"
+    },
+    {
+        "name": "พาสต้าเส้นเกลียวแฮมและเห็ดอบชีส",
+        "img":"https://cdn.1112.com/1112/public//images/products/maindish/mobile/BakedPasta_Din_Ham.png",
+        "price":"99"
+    },
+    {
+        "name": "พาสต้าเส้นเกลียวไก่บาร์บีคิวอบชีส",
+        "img":"https://cdn.1112.com/1112/public//images/products/maindish/mobile/BakedPasta_Din_Chicken.png",
+        "price":"99"
+    },
+    {
+        "name": "พาสต้าเส้นเกลียวเบคอนอบชีส",
+        "img":"https://cdn.1112.com/1112/public//images/products/maindish/mobile/BakedPasta_Din_Bacon.png",
+        "price":"109"
+    },
+    {
+        "name": "สปาเก็ตตี้ ซอสไก่สับ",
+        "img":"https://cdn.1112.com/1112/public//images/products/pasta/website/itm115535.png",
+        "price":"99"
+    },
+    {
+        "name": "สปาเก็ตตี้เบคอนผัดพริกแห้ง",
+        "img":"https://cdn.1112.com/1112/public//images/products/pasta/website/itm115539.png",
+        "price":"109"
+    },
+    {
+        "name": "สปาเก็ตตี้ใส้กรอกผัดพริกแห้ง",
+        "img":"https://cdn.1112.com/1112/public//images/products/pasta/website/itm115536.png",
+        "price":"99"
+    },
+    {
+        "name": "ผักโขมอบชีส",
+        "img":"https://cdn.1112.com/1112/public//images/products/pasta/website/itm115505.png",
+        "price":"179"
+    },
+    {
+        "name": "สปาเก็ตตี้ ขี้เมาทะเล",
+        "img":"https://cdn.1112.com/1112/public//images/products/pasta/website/Pasta_KheeMao-Seafood_web.png",
+        "price":"139"
+    }
+    
+]
